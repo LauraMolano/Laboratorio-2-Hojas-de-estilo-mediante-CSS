@@ -1,0 +1,117 @@
+/* a) Comentarios en el archivo de hojas de estilo */
+/* HOJA DE ESTILOS */
+
+/* d) Selector de agrupación (h2, p) */
+/* e) Propiedades usadas aquí: font-family, color */
+/* f) Color en formato hexadecimal: #333333 */
+h2,
+p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333333;
+}
+
+/* e) Propiedades: background-color, color, padding, border, border-radius, cursor */
+/* f) Colores hexadecimales: #4545fd, #ffffff */
+button {
+  background-color: #4545fd;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* c) Selector de clase (.grid-head-container) */
+/* e) Propiedades: display, text-align, grid-template-columns */
+/* g) DIV horizontales: grid-template-columns: 10% 90% divide el contenedor en columnas horizontales */
+.grid-head-container {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 10% 90%;
+}
+
+/* c) Selector de clase (.grid-body-container) */
+/* e) Propiedades: display, grid-template-columns, gap */
+/* g) DIV horizontales: 33% 33% 33% distribuye los div en 3 columnas */
+.grid-body-container {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  gap: 8px;
+}
+
+/* c) Selector de clase (.footer-style) */
+/* e) Propiedades: background-color, text-align, color, border, border-radius, padding, font-family */
+/* f) Colores hexadecimales: #fddafb, #800080 */
+.footer-style {
+  background-color: #fddafb;
+  text-align: center;
+  color: #800080;
+  border: 1px solid #800080;
+  border-radius: 10px;
+  padding: 2%;
+  font-family: sans-serif;
+  margin-top: 1%;
+}
+
+/* c) Selector de clase (.grid-footer-container) */
+/* e) Propiedades: display, gap */
+.grid-footer-container {
+  display: flex;
+  gap: 10px;
+}
+
+/* c) Selector de clase (.center) */
+/* e) Propiedad: text-align */
+.center {
+  text-align: center;
+}
+
+/* b) Selectores de ID (#med1, #med4) */
+/* e) Propiedades: padding, border-radius, background-color, text-align, border */
+/* f) Colores hexadecimales: #fff4a3, #ffe62d */
+#med1 {
+  padding: 5%;
+  border-radius: 10px;
+  background-color: #fff4a3;
+  text-align: left;
+  border: 2px solid #ffe62d;
+}
+
+#med6 {
+  padding: 5%;
+  border-radius: 10px;
+  background-color: #fff4a3;
+  text-align: right;
+  border: 2px solid #ffe62d;
+}
+
+/* b) Selectores de ID (#med2, #med5) */
+/* e) Propiedades: padding, border-radius, background-color, text-align, border */
+/* f) Colores hexadecimales: #ffc0c7, #ff8c99 */
+#med2,
+#med5 {
+  padding: 5%;
+  border-radius: 10px;
+  background-color: #ffc0c7;
+  text-align: center;
+  border: 2px solid #ff8c99;
+}
+
+/* b) Selectores de ID (#med3, #med6) */
+/* e) Propiedades: padding, border-radius, background-color, text-align, border */
+/* f) Colores hexadecimales: #8bf890, #09c712 */
+#med3 {
+  padding: 5%;
+  border-radius: 10px;
+  background-color: #8bf890;
+  text-align: right;
+  border: 1px solid #09c712;
+}
+
+#med4 {
+  padding: 5%;
+  border-radius: 10px;
+  background-color: #8bf890;
+  text-align: left;
+  border: 1px solid #09c712;
+}
